@@ -1,9 +1,9 @@
 
 STATUS:**ONLINE** 
 
-Discord: https://discord.gg/pXAjVQE
+Discord: *-*
 
-Toshinou Ultra
+Toshinou 3.87
 ==========
 A cheat/tool/bot/whatever for a browser flash game named DarkOrbit.
 It does some pretty neat stuff and is still under heavy development.
@@ -24,14 +24,7 @@ ES guide: https://youtu.be/4kp8v413634<br />
 5. Use any web proxy to replace the main.swf and preloader.swf
 6. Enjoy!
 
-TODO:
-----------
--Improve Palladium repair 
--React to enemy attacks on palladium  
--Palladium traveler if repairing on gate  
--Improve gg repair(ship can run onto npcs and die)  
--Improve npc Circle  
--Temporarily save box positions  
+
 
 Issues
 ----------
