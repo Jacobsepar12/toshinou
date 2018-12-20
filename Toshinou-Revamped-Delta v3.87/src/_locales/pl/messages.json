@@ -1,0 +1,341 @@
+{
+  "toshidescription": {
+    "message": "A cheat/tool/bot/whatever dla gry przegladarkowej DarkOrbit. Robi całkiem fajne rzeczy i jest wciaż w trakcie intensywnego rozwoju.",
+    "description": "Opis Toshinou"
+  },
+  "desextension": {
+    "message": "Bot dla DarkOrbit, stworzony przez Freshek.",
+    "description": "Opis Rozszerzen Toshinou"
+  },
+  "appearance": {
+    "message": "Wygląd"
+  },
+  "translateby": {
+    "message": "",
+    "description": "Opis rozszerzenia Toshinou"
+  },
+  "discordserver": {
+    "message": "Serwer Discord "
+  },
+  "saveall": {
+    "message": "Zapisz wszystko"
+  },
+  "headercolor": {
+    "message": "Kolor nagłowka"
+  },
+  "opacity": {
+    "message": "nieprzezroczystość"
+  },
+  "windowbackgroundcolor": {
+    "message": "Kolor Tła okna"
+  },
+  "statisticwindow": {
+    "message": "Okno statystyczne"
+  },
+  "windowstotabs": {
+    "message": "Tabulatory zamiast okien"
+  },
+  "showruntime": {
+    "message": "pokaz czas trwania"
+  },
+  "speedformat": {
+    "message": "Format szybkości"
+  },
+  "hour": {
+    "message": "godzina"
+  },
+  "min": {
+    "message": "min"
+  },
+  "deltaoptions": {
+    "message": "Włącz Funkcje Delty. (Może miec pare bugów)"
+  },
+  "palladiumlogic": {
+    "message": "Palladium logic (Dziala tylko jeśli delta i palladium bot są aktywne)"
+  },
+  "shipconfigs": {
+    "message": "konfy statku"
+  },
+  "attackconfig": {
+    "message": "konfa do bicia"
+  },
+  "flyingconfig": {
+    "message": "konfa do latania"
+  },
+  "advanced": {
+    "message": "Zaawansowane (Nie dla początkujących!)"
+  },
+  "logictick": {
+    "message": "Reagowanie (ms)"
+  },
+  "refreshsettings": {
+    "message": "Odśwież strone ustawienia Funkcji"
+  },
+  "enablerefresh": {
+    "message": "Włącz funkcje odświerzania"
+  },
+  "refreshtime": {
+    "message": "Odśwież strone co (min)"
+  },
+  "enablenpcblocklist": {
+    "message": "Po odświeżeniu czarna lista wciąż jest aktywna"
+  },
+  "refreshtoreconnect": {
+    "message": "Refresh page when disconnected"
+  },
+  "clearsettings": {
+    "message": "Wyczyść ustawienia (Ośwież strone ustawienia Funkcji)"
+  },
+  "reviveat": {
+    "message": "Napraw na"
+  },
+  "base": {
+    "message": "Bazie"
+  },
+  "gate": {
+    "message": "Porcie"
+  },
+  "spot": {
+    "message": "Miejscu"
+  },
+  "norevive": {
+    "message": "Nie naprawiaj"
+  },
+  "revivelimit": {
+    "message": "Limit naprawień"
+  },
+  "workmap": {
+    "message": "Mapa"
+  },
+  "any": {
+    "message": "Any"
+  },
+  "onlyworkdelta": {
+    "message": ""
+  },
+  "boxsettings": {
+    "message": "ustawienia skrzynek"
+  },
+  "bonusbox": {
+    "message": "Skrzynki bonusowe"
+  },
+  "materials": {
+    "message": "Materiały"
+  },
+  "cargobox": {
+    "message": "Skrzynki cargo"
+  },
+  "greenorgoldbooty": {
+    "message": "Złote | Zielone Skrzynie pirackie"
+  },
+  "redbooty": {
+    "message": "Czerwone Skrzynie pirackie"
+  },
+  "bluebooty": {
+    "message": "Niebieskie Skrzynie pirackie"
+  },
+  "masquebooty": {
+    "message": " Skrzynie Apokalipsy"
+  },
+  "collectboxwhencircle": {
+    "message": "Zbieraj boxy robiąc orbitki (jeśli wersja delta jest aktywna)"
+  },
+  "target": {
+    "message": "Cel: "
+  },
+  "hp": {
+    "message": "HP: "
+  },
+  "shd": {
+    "message": "SHD: "
+  },
+  "palladiumbot": {
+    "message": "Palladium Bot"
+  },
+  "moverandomly": {
+    "message": "Losowe kliknięcia"
+  },
+  "killnpcs": {
+    "message": "Zabijaj NPCs"
+  },
+  "fleefromenemy": {
+    "message": "Uciekaj od wrogów"
+  },
+  "avoidattackednpc": {
+    "message": "Nie Bij czyjegoś NPCs<br>(Nie uzywac z PET'EM)"
+  },
+  "circle": {
+    "message": "Orbitkuj"
+  },
+  "circleradius": {
+    "message": "Orbitkowanie <span> (500px)</span>"
+  },
+  "dontcirclewhenhp": {
+    "message": "Nie Orbitkuj gdy HP NPC jest mniej niż < 25%"
+  },
+  "repairwhenhp": {
+    "message": "Napraw gdy Twoje HP spadnie poniżej< <span> (10%)</span>"
+  },
+  "jumpandreturn": {
+    "message": "Skocz i wróć"
+  },
+  "autochangeconfig": {
+    "message": "Auto zmiana konfy"
+  },
+  "dodgethecbs": {
+    "message": "Unikaj stacji bojowej"
+  },
+  "resettarget": {
+    "message": "Resetuj target gdy NPC ma < 25% HP "
+  },
+  "savesettingsandenable": {
+    "message": "Zapisz ustawienia & Włacz odswieżanie"
+  },
+  "attackdetails": {
+    "message": "Szczegóły ataku"
+  },
+  "general": {
+    "message": "General"
+  },
+  "gghelper": {
+    "message": "Wrota"
+  },
+  "ggbot": {
+    "message": "GG Bot (W Testach)"
+  },
+  "jumpin": {
+    "message": "Skocz w"
+  },
+  "minimap": {
+    "message": "Minimapa"
+  },
+  "excludenpcto": {
+    "message": "Zaznacz NPC których ma nie bić"
+  },
+  "statistic": {
+    "message": "Statystyki"
+  },
+  "startat": {
+    "message": "Zaczęto o: "
+  },
+  "credits": {
+    "message": "Kredki: "
+  },
+  "uridium": {
+    "message": "Urka: "
+  },
+  "ggenergy": {
+    "message": "Energia: "
+  },
+  "ammo": {
+    "message": "Ammo: "
+  },
+  "experiencie": {
+    "message": "PD: "
+  },
+  "honor": {
+    "message": "Poważka: "
+  },
+  "rank": {
+    "message": "Punkty Rangi: "
+  },
+  "death": {
+    "message": "Padnięcia: "
+  },
+  "speed": {
+    "message": "Szybkość: "
+  },
+  "runtime": {
+    "message": "Czas latania: "
+  },
+  "reset": {
+    "message": "Reset"
+  },
+  "shipsettings": {
+    "message": "Ship settings"
+  },
+  "changedroneformation": {
+    "message": "Change Drone Formation"
+  },
+  "attackformationslot": {
+    "message": "Attack Formation Slot"
+  },
+  "flyingformationslot": {
+    "message": "Flying Formation Slot"
+  },
+  "droneformations": {
+    "message": "Drone Formations(BETA)"
+  },
+  "shiphability": {
+    "message": "Ship Hability (BETA)"
+  },
+  "usehability": {
+    "message": "Use Hability"
+  },
+  "habilityslot": {
+    "message": "Hability slot"
+  },
+  "refreshsettings": {
+    "message": "Refresh settings"
+  },
+  "slotsAmmunition": {
+    "message": "Config of ammunition"
+  },
+  "autochangeammunition": {
+    "message": "Auto Change Ammunition"
+  },
+  "piratebot": {
+    "message": "5-2 Pirate bot - Gate Left"
+  },
+  "cubibot": {
+    "message": "Protegit Bot"
+  },
+  "gatestonpc": {
+    "message": "NPCs in gate"
+  },
+  "x1Slot": {
+    "message": "Slot x1"
+  },
+  "x2Slot": {
+    "message": "Slot x2"
+  },
+  "x3Slot": {
+    "message": "Slot x3"
+  },
+  "x4Slot": {
+    "message": "Slot x4"
+  },
+  "SABSlot": {
+    "message": "Slot SAB"
+  },
+  "npcname": {
+    "message": "NPC Name"
+  },
+  "npcrange": {
+    "message": "Range"
+  },
+  "npcammo": {
+    "message": "Ammo"
+  },
+  "npcpriority": {
+    "message": "Priority"
+  },
+  "npclist": {
+    "message": "NPC List"
+  },
+  "generalsettings": {
+    "message": "General settings"
+  },
+  "stopafterxminutes": {
+    "message": "Stop after x minutes (0 = No Stop)"
+  },
+  "waitafterRepair" : {
+    "message": "Stop x minutes after revive (0 = No Stop)"
+  },
+  "loadSettings": {
+    "message": "Load Settings"
+  },
+  "sentinelmode": {
+	"message": "Sentinel Mode"
+  }
+}

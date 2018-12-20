@@ -1,0 +1,669 @@
+﻿<!-- created by Freshek on 30.10.2017 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Toshinou Revamped Delta Configuration</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+<style>
+.settingsTitle {
+	background-color: #dfd3d3;
+}
+.table-wrapper-scroll-y {
+  display: block;
+  max-height: 400px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+</style>
+</head>
+<body class="container">
+	<center>
+		<h1>Toshinou Revamped Delta</h1>
+	</center>
+	<p class="text-center" data-resource="toshidescription">A
+		cheat/tool/bot/whatever for a browser flash game named DarkOrbit. It
+		does some pretty neat stuff and is still under heavy development.</p>
+	<p class="text-center" data-resource="toshidescription2"><b>No bot/tool is safe and less toshinou.</b> If you want some function do it yourself and share it</p>
+	<p class="text-center"> If you can help use this link: <a href="http://combostruct.com/3Xi8">https://github.com/dm94/Toshinou-Revamped-Delta</a></p>
+	<p class="text-center"> Github: <a href="https://github.com/dm94/Toshinou-Revamped-Delta">https://github.com/dm94/Toshinou-Revamped-Delta</a></p>
+	<p class="text-center"> Discord ES: <a href="https://discord.gg/7sndXDR">https://discord.gg/7sndXDR</a></p>
+	<p class="text-center" data-resource="translateby"></p>
+	<form id="optionsdata">
+		<table class="table table-bordered">
+			<tr>
+				<td>
+					<p class="text-center">
+						<button type="submit" class="btn btn-success" form="optionsdata">
+							<span data-resource="saveall">Save All</span>
+						</button>
+					</p>
+				</td>
+				<td>
+					<p class="text-center">
+						<button class="donwloadprofile btn btn-warning">
+							<span data-resource="donwloadprofile">Download Settings</span>
+						</button>
+					</p>
+				</td>
+ 				<td>
+				  <button class="loadFile btn btn-warning">
+					<span data-resource="loadSettings">Load Settings</span>
+				  </button>
+ 				</td>
+ 				<td>
+				  <input type="file" id="files" name="files" accept=".json" />
+                  <output id="list"></output>
+                  <script src="loadFile.js"></script>
+ 				</td>
+			</tr>
+			<tr>
+				<th class="settingsTitle" colspan="4">
+					<center>
+						<span class="text-center" data-resource="appearance">Appearance</span>
+					</center>
+				</th>
+			</tr>
+			<tr>
+				<td><label for="headerColor"><span
+						data-resource="headercolor">Header color</span></label> <input
+					type="color" id="headerColor" value="#16262f"></td>
+				<td><label for="headerOpacity"><span
+						data-resource="opacity">opacity</span></label> <input type="range"
+					id="headerOpacity" min="0" max="1" step="0.01" value="0.9">
+				</td>
+				<td><label for="windowColor"><span
+						data-resource="windowbackgroundcolor">Window background
+							color</span></label> <input type="color" id="windowColor" value="#16262f">
+				</td>
+				<td><label for="windowOpacity"><span
+						data-resource="opacity">opacity</span></label> <input type="range"
+					id="windowOpacity" min="0" max="1" step="0.01" value="0.8">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4"><input type="checkbox" id="windowsToTabs" /> <label
+					for="windowsToTabs"><span data-resource="windowstotabs">Tabs
+							instead of windows</span></label></td>
+			</tr>
+			<tr>
+				<th colspan="2"><span data-resource="speedformat">Speed
+						format</span></th>
+				<td><input type="radio" id="speedFormat_min" name="speedFormat"
+					value="min"> <label for="speedFormat_min">uri/<span
+						data-resource="min">min</span></label></td>
+				<td><input type="radio" id="speedFormat_hour"
+					name="speedFormat" value="hour" checked> <label
+					for="speedFormat_hour">uri/<span data-resource="hour">hour</span></label>
+				</td>
+			</tr>
+			<tr>
+				<th class="settingsTitle" colspan="4"><center>
+						<span data-resource="shipsettings">Ship settings</span>
+					</center></th>
+			</tr>
+			<tr>
+				<th colspan="2"><span data-resource="shipconfigs">Ship
+						Configs</span></th>
+				<td><input type="checkbox" id="autoChangeConfig"
+					name="autoChangeConfig"> <label for="autoChangeConfig"
+					data-resource="autochangeconfig">Change Configs</label></td>
+				<td>
+					<p>
+						<label for="attackConfig"><span
+							data-resource="attackconfig">Attack Config</span></label> <input
+							type="number" id="attackConfig" min="1" max="2" value="1">
+					</p>
+					<p>
+						<label for="flyingConfig"><span
+							data-resource="flyingconfig">Flying Config</label> <input
+							type="number" id="flyingConfig" min="1" max="2" value="1">
+					</p>
+					<p>
+						<label for="escapeConfig"><span
+							data-resource="escapeConfig">Escape Config</label> <input
+							type="number" id="escapeConfig" min="1" max="2" value="1">
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<th colspan="2"><span data-resource="droneformations">Drone
+						Formations(BETA)</span></th>
+				<td><input type="checkbox" id="changeFormation"
+					name="changeFormation"> <label for="changeFormation"
+					data-resource="changedroneformation">Change Drone Formation</label>
+				</td>
+				<td>
+					<p>
+						<label for="attackFormation"><span
+							data-resource="attackformationslot">Attack Formation Slot</span>:
+						</label> <input type="number" id="attackFormation" min="0" max="10"
+							value="1">
+					</p>
+					<p>
+						<label for="flyingFormation"><span
+							data-resource="flyingformationslot">Flying Formation Slot</span>:
+						</label> <input type="number" id="flyingFormation" min="0" max="10"
+							value="1">
+					</p>
+					<p>
+						<label for="escapeFormation"><span
+							data-resource="escapeFormation">Escape Formation Slot</span>:
+						</label> <input type="number" id="escapeFormation" min="0" max="10"
+							value="1">
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td><b><span data-resource="slotsAmmunition">Slots
+							of ammunition</span>:</b></td>
+				<td><input type="checkbox" id="changeAmmunition"
+					name="changeAmmunition"> <label for="changeAmmunition"><span
+						data-resource="autochangeammunition">Auto Change Ammunition</span></label>
+				</td>
+				<td><label for="x1Slot"><span data-resource="x1Slot">Slot
+							X1</span></label> <input type="number" id="x1Slot" min="0" max="10" value="0">
+				</td>
+				<td><label for="x2Slot"><span data-resource="x2Slot">Slot
+							X2</span></label> <input type="number" id="x2Slot" min="0" max="10" value="0">
+				</td>
+			</tr>
+			<tr>
+				<td><label for="x3Slot"><span data-resource="x3Slot">Slot
+							X3</span></label> <input type="number" id="x3Slot" min="0" max="10" value="0">
+				</td>
+				<td><label for="x4Slot"><span data-resource="x4Slot">Slot
+							X4</span></label> <input type="number" id="x4Slot" min="0" max="10" value="0">
+				</td>
+				<td><label for="sabSlot"><span data-resource="SABSlot">Slot
+							SAB</span></label> <input type="number" id="sabSlot" min="0" max="10" value="0">
+				</td>
+				<td><label for="rsbSlot"><span data-resource="rsbSlot">Slot
+							RSB</span></label> <input type="number" id="rsbSlot" min="0" max="10" value="0">
+				</td>
+			</tr>
+			<tr>
+				<th class="settingsTitle" colspan="4"><center>
+						<span data-resource="generalsettings">General settings</span>
+					</center></th>
+			</tr>
+			<tr>
+				<td colspan="2"><b><label for="reviveType"><span
+							data-resource="reviveat">Revive at</span>: </label></b> <select
+					id="reviveType">
+						<option value="0"><span data-resource="base">Base</span></option>
+						<option value="1"><span data-resource="gate">Gate</span></option>
+						<option value="2"><span data-resource="spot">Spot</span></option>
+						<option value="3"><span data-resource="norevive">No
+								repair</span></option>
+				</select></td>
+				<td><b><label for="reviveLimit"><span
+							data-resource="revivelimit">Revive limit</span>: </label></b> <input
+					type="number" id="reviveLimit" min="1" max="99" value="5">
+				</td>
+				<td><b><label for="workmap"><span
+							data-resource="workmap">Work Map</span>:</label></b> <select id="workmap">
+						<option value="0"><span data-resource="any">Any</span></option>
+						<option value="2">1-2</option>
+						<option value="3">1-3</option>
+						<option value="4">1-4</option>
+						<option value="6">2-2</option>
+						<option value="7">2-3</option>
+						<option value="8">2-4</option>
+						<option value="10">3-2</option>
+						<option value="11">3-3</option>
+						<option value="12">3-4</option>
+						<option value="13">4-1</option>
+						<option value="14">4-2</option>
+						<option value="15">4-3</option>
+						<option value="16">4-4</option>
+						<option value="29">4-5</option>
+						<option value="17">1-5</option>
+						<option value="18">1-6</option>
+						<option value="19">1-7</option>
+						<option value="20">1-8</option>
+						<option value="21">2-5</option>
+						<option value="22">2-6</option>
+						<option value="23">2-7</option>
+						<option value="24">2-8</option>
+						<option value="25">3-5</option>
+						<option value="26">3-6</option>
+						<option value="27">3-7</option>
+						<option value="28">3-8</option>
+						<option value="91">5-1</option>
+						<option value="92">5-2</option>
+						<option value="93">5-3</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td colspan="2"><label for="stopafterxminutes"><span
+						data-resource=stopafterxminutes>Stop after x minutes (0 =
+							No Stop)</span> <input type="number" id="stopafterxminutes" min="0"
+						max="10080" step="5" value="0"></label></td>
+				<td colspan="2"><label for="waitafterRepair"><span
+						data-resource=waitafterRepair>Wait after repair x minutes
+							(0 = No Stop)</span> <input type="number" id="waitafterRepair" min="0"
+						max="20" value="0"></label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label for="waitBeforeRepair"><span data-resource=waitBeforeRepair>Wait before repair x seconds</span> 
+					<input type="number" id="waitBeforeRepair" min="8" max="240" value="8"></label>
+				</td>
+				<td colspan="2">
+					<input type="checkbox" id="randomBreaks"> <label for="randomBreaks"><span data-resource="randomBreaks">Random Breaks</span></label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="checkbox" id="refreshToReconnect"> 
+					<label for="refreshToReconnect"><span data-resource="refreshtoreconnect">Refresh instead of reconnect</span></label>
+				</td>
+				<td colspan="2">
+					<input type="checkbox" id="stopWhenCargoIsFull"> 
+					<label for="stopWhenCargoIsFull"><span data-resource="stopWhenCargoIsFull">Stop when cargo is full</span></label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" id="fleeFromEnemy"> <label for="fleeFromEnemy"><span data-resource="fleefromenemy">Flee From Enemy</span></label>
+				</td>
+				<td>
+					<input type="checkbox" id="jumpFromEnemy"> <label for="jumpFromEnemy"><span data-resource="jumpandreturn">Jump and Return</span></label>
+				</td>
+				<td>
+					<input type="checkbox" id="onlyEscapeWhenEnemyAttack"> <label for="onlyEscapeWhenEnemyAttack"><span data-resource="onlyEscapeWhenEnemyAttack">Only escape when enemy attack</span></label>
+				</td>
+				<td>
+					<input type="checkbox" id="dodgeTheCbs"> <label for="dodgeTheCbs"><span data-resource="dodgethecbs">Dodge CBS</span></label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" id="moveRandomly"> <label for="moveRandomly"><span data-resource="moverandomly">Move randomly</span></label>
+				</td>
+				<td>
+					<input type="checkbox" id="killNpcs"> <label for="killNpcs"><span data-resource="killnpcs">Kill NPCs</span></label>
+				</td>
+				<td colspan="2">
+					<input type="checkbox" id="avoidAttackedNpcs"> <label for="avoidAttackedNpcs"><span data-resource="avoidattackednpc">Avoid attacked NPCs</span></label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" id="circleNpc"> <label for="circleNpc"><span data-resource=circle>Collect Box When Circle</span></label>
+				</td>
+				<td colspan="2">
+					<input type="checkbox" id="dontCircleWhenHpBelow25Percent"> <label for="dontCircleWhenHpBelow25Percent"><span data-resource="dontcirclewhenhp">Don't circle when HP &#60; 25%</span></label>
+				</td>
+				<td>
+					<label for="autoPlay"><span data-resource=autoPlay>Auto Play Mode</span></label>
+					<select id="autoPlay">
+						<option value="0">Disabled</option>
+						<option value="1">Only AutoPlay</option>
+						<option value="2">Palladium bot</option>
+						<option value="3">5-2 Pirate bot - Gate Left</option>
+						<option value="4">Pirate Bottle Right</option>
+						<option value="5">Protegit Bot</option>
+						<option value="6">GG Bot</option>
+						<option value="7">Sentinel Mode</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="checkbox" id="useCBSZoneSegure"> <label for="useCBSZoneSegure"><span data-resource="useCBSZoneSegure">Use Ally CBS as a safe zone to repair</span></label>
+				</td>
+				<td>
+					<label for="repairWhenHpIsLowerThanPercent"><span data-resource=repairWhenHpIsLowerThanPercent>Repair when HP &#60; </span> 
+					<input type="number" id="repairWhenHpIsLowerThanPercent" min="0" max="100" value="10">%</label>
+				</td>
+				<td>
+					<input type="checkbox" id="enablePet"> <label for="enablePet"><span data-resource="enablePet">Enable Pet</span></label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="number" id="petReviveLimit" min="0" max="9999999" value="5"> <label for="petReviveLimit"><span data-resource="petReviveLimit">Limit to revive the pet (0 = No revive)</span></label>
+				</td>
+				<td colspan="2">
+					<label for="petModule"><span data-resource="petModule">Pet module: </span></label>
+					<select id="petModule">
+						<option value="2">Guard Mode</option>
+						<option value="4">Auto loot</option>
+						<option value="5">Collect Resource</option>
+						<option value="10">Kamikaze</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th class="settingsTitle" colspan="4"><center>
+						<span data-resource="skillsSettings">Skills Settings</span>
+					</center>
+				</th>
+			</tr>
+			<tr>
+				<th colspan="2"><span data-resource="shiphability">Ship
+						Skills</span>
+				</th>
+				<td colspan="2">
+					<input type="checkbox" id="useHability"
+					name="changeFormation"> <label for="useHability"><span
+						data-resource="usehability">Use Hability</span></label>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><label for="habilitySlot"><span
+						data-resource="habilityslot">Hability slot</span> 1 (cyborg,
+						venom, solace, diminisher, spectrum, sentinel, lightning, Aegis:
+						HP Repair, SpearHead: Ultimate Cloak, Citadel: Draw Fire, Mimesis:
+						Scramble, Hammerclaw: HP Repair, Tartarus: Rapid Fire): </label> <input
+					type="number" id="habilitySlot" min="0" max="9" value="0">
+				</td>
+				<td colspan="2"><label for="habilitySlotTwo"><span
+						data-resource="habilitySlotTwo">Hability slot 2 (Aegis:
+							Shield Repair, SpearHead: JAMX, Citadel: Travel, Mimesis: Phase
+							Out, Hammerclaw: Shield Repair, Tartarus: Speed Boost)</span>: </label> <input
+					type="number" id="habilitySlotTwo" min="0" max="9" value="0">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><label for="habilitySlotThree"><span
+						data-resource="habilitySlotThree">Hability slot 3 (Aegis:
+							Repair Pod, SpearHead: Target Marker, Citadel: Protection,
+							Hammerclaw: Repair Pod)</span>: </label> <input type="number"
+					id="habilitySlotThree" min="0" max="9" value="0"></td>
+				<td colspan="2"><label for="habilitySlotFour"><span
+						data-resource="habilitySlotFour">Hability slot 4 (Citadel:
+							Fortify, SpearHead: Recon)</span>: </label> <input type="number"
+					id="habilitySlotFour" min="0" max="9" value="0"></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label for="cyborgHp">
+						<span data-resource="cyborgHp">Use the skill of the Cyborg when the life of the enemy is > of:</span>
+					</label> 
+					<input type="number" id="cyborgHp" min="0" step="10000" max="2000000" value="100000">
+				</td>
+				<td colspan="2">
+					<label for="venomHp">
+						<span data-resource="venomHp">Use the skill of the Venom when the life of the enemy is > of:</span>
+					</label> 
+					<input type="number" id="venomHp" min="0" step="10000" max="2000000" value="60000">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label for="diminisherSHD">
+						<span data-resource="diminisherSHD">Use the skill of the Diminisher when the shield of the enemy is > of:</span>
+					</label> 
+					<input type="number" id="diminisherSHD" min="0" step="10000" max="5000000" value="60000">
+				</td>
+				<td colspan="2">
+					<label for="habilityHpRepair">
+						<span data-resource="habilityHpRepair">Use Aegis|Hammerclaw: HP Repair when the ship's life is &#60; of:</span>
+					</label> 
+					<input type="number" id="habilityHpRepair" min="0" step="10000" max="5000000" value="150000">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<label for="habilityShieldRepair">
+						<span data-resource="habilityShieldRepair">Use Aegis|Hammerclaw: shield Repair when the ship's shield is &#60; of:</span>
+					</label> 
+					<input type="number" id="habilityShieldRepair" min="0" step="10000" max="5000000" value="100000">
+				</td>
+			</tr>
+			<tr>
+				<th class="settingsTitle" colspan="4">
+					<center>
+						<span data-resource="pvp">PVP</span>
+					</center>
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" id="attackEnemyPlayers"> <label for="attackEnemyPlayers"><span data-resource="attackEnemyPlayers">Attack Enemy Players</span></label>
+				</td>
+								<td>
+					<input type="checkbox" id="respondPlayerAttacks"> <label for="respondPlayerAttacks"><span data-resource="respondPlayerAttacks">Respond player attacks</span></label>
+				</td>
+				<td>
+					<label for="playerAmmo"><span data-resource="playerAmmo">Ammo for players</span></label>
+					<select id="playerAmmo">
+						<option value="1">X1</option>
+						<option value="2">X2</option>
+						<option value="3">X3</option>
+						<option value="4">X4</option>
+						<option value="11">X1 + SAB</option>
+						<option value="21">X2 + SAB</option>
+						<option value="31">X3 + SAB</option>
+						<option value="41">X4 + SAB</option>
+						<option value="45">X4 + RSB</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th class="settingsTitle" colspan="4">
+					<center>
+						<span data-resource="palladiumSettings">Palladium Settings</span>
+					</center>
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" id="attackBattleray"> <label for="attackBattleray"><span data-resource="attackBattleray">Attacking the Battleray</span></label>
+				</td>
+				<td>
+					<input type="checkbox" id="onlyAnswerAttacks"> <label for="onlyAnswerAttacks"><span data-resource="onlyAnswerAttacks">Only respond to attacks</span></label>
+				</td>
+			</tr>
+			<tr>
+				<th class="settingsTitle" colspan="4"><center>
+						<span data-resource="gghelper">GG Helper</span>
+					</center></th>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type="checkbox" id="changeToHonorFormation"> <label for="changeToHonorFormation"><span data-resource="changeToHonorFormation">At the end of the wave, the ship switches to the speed formation.</span></label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" id="alpha"> <label for="alpha"><span data-resource="jumpin">Jump in</span> GG Alpha</label>
+				</td>
+				<td>
+					<input type="checkbox" id="beta"> <label for="beta"><span data-resource="jumpin">Jump in</span> GG Beta</label>
+				</td>
+				<td>
+					<input type="checkbox" id="gamma"> <label for="gamma"><span data-resource="jumpin">Jump in</span> GG Gamma</label>
+				</td>
+				<td>
+					<input type="checkbox" id="delta"> <label for="delta"><span data-resource="jumpin">Jump in</span> GG Delta</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" id="epsilon"> <label for="epsilon"><span data-resource="jumpin">Jump in</span> GG Epsilon</label>
+				</td>
+				<td>
+					<input type="checkbox" id="zeta"> <label for="zeta"><span data-resource="jumpin">Jump in</span> GG Zeta</label>
+				</td>
+				<td>
+					<input type="checkbox" id="kappa"> <label for="kappa"><span data-resource="jumpin">Jump in</span> GG Kappa</label>
+				</td>
+				<td>
+					<input type="checkbox" id="lambda"> <label for="lambda"><span data-resource="jumpin">Jump in</span> GG Lambda</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" id="kronos"> <label for="kronos"><span data-resource="jumpin">Jump in</span> GG Kronos</label>
+				</td>
+				<td>
+					<input type="checkbox" id="hades"> <label for="hades"><span data-resource="jumpin">Jump in</span> GG Hades</label>
+				</td>
+				<td>
+					<input type="checkbox" id="kuiper"> <label for="kuiper"><span data-resource="jumpin">Jump in</span> GG Kuiper</label>
+				</td>
+				<td>
+				</td>
+			</tr>
+			<tr>
+				<th class="settingsTitle" colspan="4"><center>
+						<span data-resource="refreshsettings">Refresh page function
+							settings</span>
+					</center></th>
+			</tr>
+			<tr>
+				<td><input type="checkbox" id="enableRefresh"> <label
+					for="enableRefresh"><span data-resource="enablerefresh">Enable
+							refresh function</span></label></td>
+				<td colspan="2"><label for="refreshTime"><span
+						data-resource="refreshtime">Refresh interval (min)</span></label> <input
+					type="number" id="refreshTime" min="1" max="600" value="60">
+				</td>
+				<td>
+					<span data-resource="useAutoPlay">Use auto play to make it work well</span>
+				</td>
+			</tr>
+			<tr>
+				<th class="settingsTitle" colspan="4"><center>
+					<span data-resource="boxsettings">Box settings</span>
+				</center></th>
+			</tr>
+			<tr>
+				<td><input type="checkbox" id="bonusBox"> <label
+					for="bonusBox"><span data-resource="bonusbox">Bonus
+							box</span></label></td>
+				<td><input type="checkbox" id="materials"> <label
+					for="materials"><span data-resource="materials">Materials</span></label>
+				</td>
+				<td><input type="checkbox" id="cargoBox"> <label
+					for="cargoBox"><span data-resource="cargobox">Cargo
+							box</span></label></td>
+				<td><input type="checkbox" id="greenOrGoldBooty"> <label
+					for="greenOrGoldBooty"><span
+						data-resource="greenorgoldbooty">Green | Gold booty boxes</span></label></td>
+			</tr>
+			<tr>
+				<td><input type="checkbox" id="redBooty"> <label
+					for="redBooty"><span data-resource="redbooty">Red
+							booty boxes</span></label></td>
+				<td><input type="checkbox" id="blueBooty"> <label
+					for="blueBooty"><span data-resource="bluebooty">Blue
+							booty boxes</span></label></td>
+				<td><input type="checkbox" id="masqueBooty"> <label
+					for="masqueBooty"><span data-resource="masquebooty">Apocalyptic
+							booty boxes</span></label></td>
+				<td><input type="checkbox" id="collectBoxWhenCircle"> <label
+					for="collectBoxWhenCircle" data-resource="collectboxwhencircle">Collect
+						Box When Circle</label></td>
+			</tr>
+			<tr>
+				<th class="settingsTitle" colspan="4"><center>
+						<span data-resource="advanced">Advanced settings</span>
+					</center></th>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<center>
+						<label for="timerTick"><span data-resource="logictick">Logic
+								tick (ms)</span></label> <input type="number" id="timerTick" min="50"
+							max="20000" value="300">
+					</center>
+				</td>
+				<td colspan="2">
+					<center>
+						<label for="debug" data-resource="debug">Debug</label>
+						<input type="checkbox" id="debug"> </input>
+					</center>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					How to perform the actions of attacking, jumping, changing config: 
+					<select id="actionsMode">
+						<option value="1">Simulate pressing keys</option>
+						<option value="2">Inject the action</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th class="settingsTitle" colspan="4">
+					<center>
+						<span data-resource="sentinelmode">Sentinel Mode </span> - <span data-resource="groupNecesary">It is necessary that the ships are in a group</span>
+					</center>
+				</th>
+			</tr>
+			<tr>
+		    	<td colspan="2">
+		      		<label for="sentinelid"><span data-resource="sentinelexp">Main Ship ID - Main ship to obey: </span></label>
+		          	<input type="number" id="sentinelid" value="0"></input>
+		      	</td>
+		      	<td>
+		      		<label for="defendSentinel"><span data-resource="defendSentinel">Defend sentinel ship</span></label>
+		          	<input type="checkbox" id="defendSentinel"></input>
+		      	</td>
+		      	<td>
+		      		<label for="followRange"><span data-resource="followRange">Follow Range: </span></label>
+		          	<input type="number" id="followRange" min="50" max="800" value="500">
+		      	</td>
+		    </tr>
+		    <tr>
+				<th class="settingsTitle" colspan="4"><center>
+						<span data-resource="playerList">WhiteList and BlackList</span>
+					</center></th>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<center>
+						<label data-resource="playerId">Player ID:</label>
+                        <input type="number" id="candidate" value="0" class="candidate"></input>
+            		    <input type="button" id="addWhite" name="addWhite" value="Add WhiteList" class="btn btn-primary btn-sm" />
+            		    <input type="button" id="addBlack" name="addBlack" value="Add BlackList" class="btn btn-primary btn-sm" />
+            		</center>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<p class="text-center" data-resource="whiteList">WhiteList (They're always allies):</p>
+                    <ul id="whiteList" class="whiteList"></ul>
+				</td>
+				<td colspan="2">
+					<p class="text-center" data-resource="blackList">BlakList (They're always enemies):</p>
+                    <ul id="blackList" class="blackList">
+                    </ul>
+				</td>
+			</tr>
+		    <tr>
+				<th class="settingsTitle" colspan="4"><center>
+						<span data-resource="npclist">NPC List</span>
+					</center></th>
+			</tr>
+		</table>
+		<div class="table-wrapper-scroll-y">
+			<table class="table table-bordered table-striped">
+				<tr>
+					<td><span data-resource="npcname">NPC Name</span></td>
+					<td><span data-resource="npcrange">Range</span></td>
+					<td><span data-resource="npcammo">Ammo</span></td>
+					<td><span data-resource="npcpriority">Priority (9 > 1)</span></td>
+				</tr>
+				<form id="npclist">
+					<script src="npclist.js"></script>
+				</form>
+			</table>
+		</div>
+	</form>
+	<script src="/js/libs/jquery-3.2.1.min.js"></script>
+	<script src="settings.js"></script>
+	<p class="text-center">You can donate from here: <a href="https://streamlabs.com/dm94dani">https://streamlabs.com/dm94dani</a></p>
+</body>
+</html>

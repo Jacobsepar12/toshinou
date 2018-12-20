@@ -1,0 +1,413 @@
+﻿{
+  "toshidescription": {
+    "message": "Cheat / tool / bot / altro per un gioco basato su browser in flash chiamato DarkOrbit. Fa alcune cose abbastanza interessanti ed è ancora sotto intenso sviluppo.",
+    "description": "Descrizione Toshinou"
+  },
+  "desextension": {
+    "message": "Un bot per DarkOrbit, creato da Freshek.",
+    "description": "Descrizione dell'estenzione Toshinou"
+  },
+  "appearance": {
+    "message": "Apparenza"
+  },
+  "translateby": {
+    "message": "Tradotto da IT| Kewai",
+    "description": "Descrizione dell'estenzione Toshinou"
+  },
+  "discordserver": {
+    "message": "Server Discord"
+  },
+  "saveall": {
+    "message": "Salva tutto"
+  },
+  "headercolor": {
+    "message": "Colore primario"
+  },
+  "opacity": {
+    "message": "Opacità"
+  },
+  "windowbackgroundcolor": {
+    "message": "Sfondo finestra"
+  },
+  "statisticwindow": {
+    "message": "Finestra statistiche"
+  },
+  "windowstotabs": {
+    "message": "Tabelle invece delle finestre"
+  },
+  "showruntime": {
+    "message": "Ore di lavoro"
+  },
+  "speedformat": {
+    "message": "Formato velocità"
+  },
+  "hour": {
+    "message": "per ora"
+  },
+  "min": {
+    "message": "per minuto"
+  },
+  "deltaoptions": {
+    "message": "Funzioni Delta. Potrebbe generare errori"
+  },
+  "palladiumlogic": {
+    "message": "Logica Palladium. Funziona con Delta attivo."
+  },
+  "shipconfigs": {
+    "message": "Configurazioni navi"
+  },
+  "attackconfig": {
+    "message": "Configurazione d'attacco:"
+  },
+  "flyingconfig": {
+    "message": "Configurazione di volo:"
+  },
+  "advanced": {
+    "message": "Avanzato (Principianti non toccate!)"
+  },
+  "logictick": {
+    "message": "Tempo logica (ms)"
+  },
+  "refreshsettings": {
+    "message": "Ricarica la pagina"
+  },
+  "enablerefresh": {
+    "message": "Attiva ricarica pagina"
+  },
+  "refreshtime": {
+    "message": "Intervallo ricarica in minuti"
+  },
+  "enablenpcblocklist": {
+    "message": "Salva la black-list quando ricarica la pagina"
+  },
+  "refreshtoreconnect": {
+    "message": "Ricarica la pagina quando disconnesso"
+  },
+  "clearsettings": {
+    "message": "Pulisci le impostazioni salvate (Funzione ricarica)"
+  },
+  "reviveat": {
+    "message": "Rianima"
+  },
+  "base": {
+    "message": "Base"
+  },
+  "gate": {
+    "message": "Portale"
+  },
+  "spot": {
+    "message": "Sul posto"
+  },
+  "norevive": {
+    "message": "Non rianimare"
+  },
+  "revivelimit": {
+    "message": "Limite rianimazioni"
+  },
+  "workmap": {
+    "message": "Mappa di lavoro"
+  },
+  "any": {
+    "message": "Qualsiasi"
+  },
+  "onlyworkdelta": {
+    "message": "Funziona se Delta è attivo"
+  },
+  "boxsettings": {
+    "message": "Impostazioni raccolta box"
+  },
+  "bonusbox": {
+    "message": "Bonus box"
+  },
+  "materials": {
+    "message": "Materiali"
+  },
+  "cargobox": {
+    "message": "Box cargo"
+  },
+  "greenorgoldbooty": {
+    "message": "Forzieri verdi|oro"
+  },
+  "redbooty": {
+    "message": "Forzieri rossi"
+  },
+  "bluebooty": {
+    "message": "Forzieri blu"
+  },
+  "masquebooty": {
+    "message": "Forzieri apocalisse"
+  },
+  "collectboxwhencircle": {
+    "message": "Raccogli box mentre giri attorno agi npc"
+  },
+  "target": {
+    "message": "Bersaglio: "
+  },
+  "hp": {
+    "message": "HP: "
+  },
+  "shd": {
+    "message": "Scudo: "
+  },
+  "palladiumbot": {
+    "message": "Bot Palladium"
+  },
+  "moverandomly": {
+    "message": "Muovi casualmente"
+  },
+  "killnpcs": {
+    "message": "Attacca NPCs"
+  },
+  "fleefromenemy": {
+    "message": "Scappa dai nemici"
+  },
+  "avoidattackednpc": {
+    "message": "Evita npc già sotto attacco (Non usare con PET)"
+  },
+  "circle": {
+    "message": "Gira attorno agli npc"
+  },
+  "circleradius": {
+    "message": "Raggio giro <span> (500px) </ span>"
+  },
+  "dontcirclewhenhp": {
+    "message": "Non girare quando gli hp <25%"
+  },
+  "repairwhenhp": {
+    "message": "Ripara quando HP <<span> (10%) </ span>"
+  },
+  "jumpandreturn": {
+    "message": "Salta e ritorna"
+  },
+  "autochangeconfig": {
+    "message": "Cambia automaticamente configurazione"
+  },
+  "dodgethecbs": {
+    "message": "Schiva basi"
+  },
+  "resettarget": {
+    "message": "Resetta bersaglio quando HP <25%"
+  },
+  "savesettingsandenable": {
+    "message": "Salva impostazioni e abilita funzione ricarica"
+  },
+  "attackdetails": {
+    "message": "Dettagli attacco"
+  },
+  "general": {
+    "message": "Generale"
+  },
+  "gghelper": {
+    "message": "GG helper"
+  },
+  "ggbot": {
+    "message": "GG BOT (Test)"
+  },
+  "jumpin": {
+    "message": "Salta in"
+  },
+  "minimap": {
+    "message": "Minimappa"
+  },
+  "excludenpcto": {
+    "message": "Escludi NPC"
+  },
+  "statistic": {
+    "message": "Statistiche"
+  },
+  "startat": {
+    "message": "Inizio: "
+  },
+  "credits": {
+    "message": "Crediti: "
+  },
+  "uridium": {
+    "message": "Uridium: "
+  },
+  "ggenergy": {
+    "message": "Energie GG: "
+  },
+  "ammo": {
+    "message": "Munizioni: "
+  },
+  "experiencie": {
+    "message": "Punti esperienza: "
+  },
+  "honor": {
+    "message": "onore:"
+  },
+  "rank": {
+    "message": "Punti rango: "
+  },
+  "death": {
+    "message": "Numero morti: "
+  },
+  "speed": {
+    "message": "Velocità: "
+  },
+  "runtime": {
+    "message": "Tempo di lavoro: "
+  },
+  "reset": {
+    "message": "Reimposta"
+  },
+  "shipsettings": {
+    "message": "Impostazioni nave"
+  },
+  "changedroneformation": {
+    "message": "Cambia formazione droni"
+  },
+  "attackformationslot": {
+    "message": "Formazione d'attacco (slot)"
+  },
+  "flyingformationslot": {
+    "message": "Formazione di volo (slot)"
+  },
+  "droneformations": {
+    "message": "Formazione droni (BETA)"
+  },
+  "shiphability": {
+    "message": "Abilità nave (BETA)"
+  },
+  "usehability": {
+    "message": "Usa abilità"
+  },
+  "habilitySlot": {
+    "message": "Slot Abilità "
+  },
+  "refreshsettings": {
+    "message": "Impostazioni ricarica pagina"
+  },
+  "slotsAmmunition": {
+    "message": "Slot munizioni"
+  },
+  "autochangeammunition": {
+    "message": "Cambia automaticamente munizioni"
+  },
+  "piratebot": {
+    "message": "5-2 pirata (Portale sinistro)"
+  },
+  "cubibot": {
+    "message": "Bot Protegit"
+  },
+  "gatestonpc": {
+    "message": "NPC sul portale"
+  },
+  "x1Slot": {
+    "message": "Slot x1"
+  },
+  "x2Slot": {
+    "message": "Slot x2"
+  },
+  "x3Slot": {
+    "message": "Slot x3"
+  },
+  "x4Slot": {
+    "message": "Slot x4"
+  },
+  "SABSlot": {
+    "message": "Slot SAB"
+  },
+  "npcname": {
+    "message": "Nome NPC"
+  },
+  "npcrange": {
+    "message": "Raggio"
+  },
+  "npcammo": {
+    "message": "Munizioni"
+  },
+  "npcpriority": {
+    "message": "Priorità"
+  },
+  "npclist": {
+    "message": "Lista NPCs"
+  },
+  "generalsettings": {
+    "message": "Impostazioni Generali"
+  },
+  "stopafterxminutes": {
+    "message": "Ferma Bot dopo x minuti (0 = Non Fermarlo)"
+  },
+  "waitafterRepair" : {
+    "message": "Ferma Bot per x minuti quando rianimato (0 = Non Fermarlo)"
+  },
+  "loadSettings": {
+    "message": "Carica Impostazioni"
+  },
+  "sentinelmode": {
+    "message": "Sentinel Mode"
+  },
+  "habilitySlotTwo": {
+    "message": "Slot Abilità 2 (Aegis: Riparazione scudo, SpearHead: JAMX, Citadel: Travel, Mimesis: Translazione , Hammerclaw: Riparazione scudo, Tartarus: Speed Boost"
+  },
+  "habilitySlotThree": {
+    "message": "Slot Abilità 3 (Aegis: Unità Riparatrice, SpearHead: Puntamento, Citadel: Protection Hammerclaw: Rigenerazione HP"
+  },
+  "habilitySlotFour": {
+    "message": "Slot Abilità 4 (Citadel: Fortify, SpearHead: Ricognizione)"
+  },
+  "escapeFormation": {
+    "message": "Formazione per scappare (slot)"
+  },
+  "escapeConfig": {
+    "message": "Configurazione per scappare"
+  },
+  "respondPlayerAttacks": {
+    "message": "Rispondi agli attacchi"
+  },
+  "playerAmmo": {
+    "message": "Munizioni per difesa"
+  },
+  "useCBSZoneSegure": {
+    "message": "Usa Asteroidi alleati come zona sicura per riparare"
+  },
+  "groupNecesary": {
+    "message": "E' necessario che le navi siano nello stesso gruppo"
+  },
+  "donwloadprofile": {
+    "message": "Scarica Impostazioni"
+  },
+  "onlyEscapeWhenEnemyAttack": {
+    "message": "Scappa solo quando attaccato da nemici"
+  },
+  "randomBreaks": {
+    "message": "Pause Randomiche"
+  },
+  "waitBeforeRepair": {
+    "message": "Aspetta x secondi prima di riparare"
+  },
+  "repairWhenHpIsLowerThanPercent": {
+    "message": "Ripara quando HP < "
+  },
+  "cyborgHp": {
+    "message": "Usa l'Abilità della Cyborg quando vita del nemico > di:"
+  },
+  "venomHp": {
+    "message": "Usa l'Abilità della Venom quando vita del nemico > di:"
+  },
+  "diminisherSHD": {
+    "message": "Usa l'Abilità della Diminisher quando vita del nemico > di:"
+  },
+  "stopWhenCargoIsFull": {
+    "message": "Ferma quando la stiva è piena"
+  },
+  "skillsSettings": {
+    "message": "Impostazioni Abilità"
+  },
+  "useAutoPlay": {
+    "message": "Utilizza 'Auto Play Mode' per farlo funzionare bene"
+  },
+  "habilityHpRepair": {
+    "message": "Usa l'Abilità HP della Aegis|Hammerclaw quando vita nave > di:"
+  },
+  "habilityShieldRepair": {
+    "message": "Usa l'Abilità  Scudo della Aegis|Hammerclaw quando vita nave > di:"
+  },
+  "changeToHonorFormation": {
+    "message": "Alla fine dell'ondata, la nave cambia in configurazione veloce."
+  },
+  "attackEnemyPlayers": {
+    "message": "Attacca nemici"
+  }
+}

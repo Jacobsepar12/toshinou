@@ -1,0 +1,341 @@
+{
+  "toshidescription": {
+    "message": "Csalás/Bot a DarkOrbit nevű online böngészős játékhoz..",
+    "description": "Toshinou description"
+  },
+  "desextension": {
+    "message": "Bot for DarkOrbit, létrehozó Freshek.",
+    "description": "Toshinou Extension description"
+  },
+  "appearance": {
+    "message": "Kinézet"
+  },
+  "translateby": {
+    "message": "HardeR",
+    "description": "Toshinou Bővítmény leírás"
+  },
+  "discordserver": {
+    "message": "Discord Szerver"
+  },
+  "saveall": {
+    "message": "Mentés"
+  },
+  "headercolor": {
+    "message": "Fejléc színe"
+  },
+  "opacity": {
+    "message": "átlátszóság"
+  },
+  "windowbackgroundcolor": {
+    "message": "Ablak háttér színe"
+  },
+  "statisticwindow": {
+    "message": "Statisztika ablak"
+  },
+  "windowstotabs": {
+    "message": "Ablak helyett tab nézet"
+  },
+  "showruntime": {
+    "message": "Futási idő megjelenítése"
+  },
+  "speedformat": {
+    "message": "Sebesség formátuma"
+  },
+  "hour": {
+    "message": "óra"
+  },
+  "min": {
+    "message": "perc"
+  },
+  "deltaoptions": {
+    "message": "Delta funkció engedélyezése. Lehetnek bugok."
+  },
+  "palladiumlogic": {
+    "message": "Palladium logika (Csak akkor működik ha a Delta és a palládium bot aktív.)"
+  },
+  "shipconfigs": {
+    "message": "Hajó konfiguráció"
+  },
+  "attackconfig": {
+    "message": "Támadó konfiguráció:"
+  },
+  "flyingconfig": {
+    "message": "Menekülő konfiguráció:"
+  },
+  "advanced": {
+    "message": "Haladó (inkább ne piszkáld!)"
+  },
+  "logictick": {
+    "message": "Logic tick (ms)"
+  },
+  "refreshsettings": {
+    "message": "Oldal frissítése funkció"
+  },
+  "enablerefresh": {
+    "message": "Frissítés funkció engedélyezése"
+  },
+  "refreshtime": {
+    "message": "Frissítés intervalluma (perc)"
+  },
+  "enablenpcblocklist": {
+    "message": "A fekete listára vett NPC-k mentése hogy frissítés után se lője a bot"
+  },
+  "refreshtoreconnect": {
+    "message": "Frissítse az oldal amikor le van fagyva"
+  },
+  "clearsettings": {
+    "message": "Beállítások törlése (frissítés funkció)"
+  },
+  "reviveat": {
+    "message": "Éledés helye:"
+  },
+  "base": {
+    "message": "Bázis"
+  },
+  "gate": {
+    "message": "Kapu"
+  },
+  "spot": {
+    "message": "Helyben"
+  },
+  "norevive": {
+    "message": "Ne éledjen ujra"
+  },
+  "revivelimit": {
+    "message": "Éledés limit"
+  },
+  "workmap": {
+    "message": "Melyik térképen botolsz?"
+  },
+  "any": {
+    "message": "bármilyen"
+  },
+  "onlyworkdelta": {
+    "message": "(Csak akkor működik ha a delta aktív)"
+  },
+  "boxsettings": {
+    "message": "Doboz beállítások"
+  },
+  "bonusbox": {
+    "message": "Bónusz doboz"
+  },
+  "materials": {
+    "message": "Anyagok"
+  },
+  "cargobox": {
+    "message": "Rakomány doboz"
+  },
+  "greenorgoldbooty": {
+    "message": "Zöld | Arany kalóz láda"
+  },
+  "redbooty": {
+    "message": "Piros kalóz láda"
+  },
+  "bluebooty": {
+    "message": "Kék kalóz láda"
+  },
+  "masquebooty": {
+    "message": "Apokalipszis kalóz láda"
+  },
+  "collectboxwhencircle": {
+    "message": "Doboz gyüjtése amikor köröz"
+  },
+  "target": {
+    "message": "Célpont: "
+  },
+  "hp": {
+    "message": "Élet: "
+  },
+  "shd": {
+    "message": "Pajzs: "
+  },
+  "palladiumbot": {
+    "message": "Palládium Bot"
+  },
+  "moverandomly": {
+    "message": "Mászkálás"
+  },
+  "killnpcs": {
+    "message": "NPC lövés"
+  },
+  "fleefromenemy": {
+    "message": "Menekülés az ellenség elől"
+  },
+  "avoidattackednpc": {
+    "message": "Megtámadott NPC-t nem lő<br>(ne használd a PET-et)"
+  },
+  "circle": {
+    "message": "Körözés"
+  },
+  "circleradius": {
+    "message": "Körözés rádiusza <span> (500px)</span>"
+  },
+  "dontcirclewhenhp": {
+    "message": "Ne körözz ha a HP < 25%"
+  },
+  "repairwhenhp": {
+    "message": "Javíts ha a HP < <span> (10%)</span>"
+  },
+  "jumpandreturn": {
+    "message": "Ugrás és Visszatérés"
+  },
+  "autochangeconfig": {
+    "message": "Automatikus konfiguráció váltás"
+  },
+  "dodgethecbs": {
+    "message": "Bázis elkerülése"
+  },
+  "resettarget": {
+    "message": "Állíts vissza a célt amikor a HP < 25%"
+  },
+  "savesettingsandenable": {
+    "message": "Beállítás mentése & Frissítés engedélyezése"
+  },
+  "attackdetails": {
+    "message": "Támadás részletei"
+  },
+  "general": {
+    "message": "Vezérlő"
+  },
+  "gghelper": {
+    "message": "GG Segítő"
+  },
+  "ggbot": {
+    "message": "GG Bot (Teszt)"
+  },
+  "jumpin": {
+    "message": "Ugrás"
+  },
+  "minimap": {
+    "message": "Mini térkép"
+  },
+  "excludenpcto": {
+    "message": "NPC-k kizárása a támadásból"
+  },
+  "statistic": {
+    "message": "Statisztika"
+  },
+  "startat": {
+    "message": "Kezdet: "
+  },
+  "credits": {
+    "message": "Kredit: "
+  },
+  "uridium": {
+    "message": "Uridium: "
+  },
+  "ggenergy": {
+    "message": "GG Energy: "
+  },
+  "ammo": {
+    "message": "Lőszer: "
+  },
+  "experiencie": {
+    "message": "Tapasztalat: "
+  },
+  "honor": {
+    "message": "Becsület: "
+  },
+  "rank": {
+    "message": "Rangsorpont: "
+  },
+  "death": {
+    "message": "Halál száma: "
+  },
+  "speed": {
+    "message": "Sebesség: "
+  },
+  "runtime": {
+    "message": "Futás idő: "
+  },
+  "reset": {
+    "message": "Visszaállítás"
+  },
+  "shipsettings": {
+    "message": "A hajó beállításai"
+  },
+  "changedroneformation": {
+    "message": "Dronformáció megváltoztatása"
+  },
+  "attackformationslot": {
+    "message": "Támadó formáció (hányas slot)"
+  },
+  "flyingformationslot": {
+    "message": "Menekülő formáció (hányas slot)"
+  },
+  "droneformations": {
+    "message": "Dronformáció (BÉTA)"
+  },
+  "shiphability": {
+    "message": "Hajó képesség (BÉTA)"
+  },
+  "usehability": {
+    "message": "Használja a képességet"
+  },
+  "habilityslot": {
+    "message": "Képesség hányas slot"
+  },
+  "refreshsettings": {
+    "message": "Frissítse a beállításokat"
+  },
+  "slotsAmmunition": {
+    "message": "Lőszer konfigurálása"
+  },
+  "autochangeammunition": {
+    "message": "Autómata lőszercsere"
+  },
+  "piratebot": {
+    "message": "5-2 Kalóz bot - Bal kapu"
+  },
+  "cubibot": {
+    "message": "Protegit Bot"
+  },
+  "gatestonpc": {
+    "message": "Kapu NPC-k"
+  },
+  "x1Slot": {
+    "message": "Slot x1"
+  },
+  "x2Slot": {
+    "message": "Slot x2"
+  },
+  "x3Slot": {
+    "message": "Slot x3"
+  },
+  "x4Slot": {
+    "message": "Slot x4"
+  },
+  "SABSlot": {
+    "message": "Slot SAB"
+  },
+  "npcname": {
+    "message": "NPC neve"
+  },
+  "npcrange": {
+    "message": "Távolság"
+  },
+  "npcammo": {
+    "message": "Lőszer"
+  },
+  "npcpriority": {
+    "message": "Prioritás"
+  },
+  "npclist": {
+    "message": "NPC List"
+  },
+  "generalsettings": {
+    "message": "General settings"
+  },
+  "stopafterxminutes": {
+    "message": "Stop after x minutes (0 = No Stop)"
+  },
+  "waitafterRepair" : {
+    "message": "Stop x minutes after revive (0 = No Stop)"
+  },
+  "loadSettings": {
+    "message": "Load Settings"
+  },
+  "sentinelmode": {
+	"message": "Sentinel Mode"
+  }
+}

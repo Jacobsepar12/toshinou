@@ -1,0 +1,340 @@
+{
+  "toshidescription": {
+    "message": "Ένα εργαλείο/μποτ για ένα διαδυκτιακό παιχνίδι που ονομάζεται Darkorbit. Κάνει κάποια τέλεια πράγματα και είναι ακόμη σε βαριά ανάπτηξη.",
+    "description": "Η περιγραφή του Toshinou"
+  },
+  "desextension": {
+    "message": "Ένα bot για το Darkorbit, δημιουργήθηκε από τον Freshek.",
+    "description": "Η περιγραφή της επέκτασης Toshinou"
+  },
+  "appearance": {
+    "message": "Εμφάνιση"
+  },
+  "translateby": {
+    "message": "Μετάφραση από τον @whatareyoulaughingat",
+    "description": "Η περιγραφή της επέκτασης Toshinou"
+  },
+  "discordserver": {
+    "message": "Ο server του Discord μας"
+  },
+  "saveall": {
+    "message": "Αποθήκευση"
+  },
+  "headercolor": {
+    "message": "Χρώμα επικεφαλής"
+  },
+  "opacity": {
+    "message": "Αδιαφάνεια"
+  },
+  "windowbackgroundcolor": {
+    "message": "Χρώμα φόντου του παραθύρου"
+  },
+  "statisticwindow": {
+    "message": "Παράθυρο Στατιστικών"
+  },
+  "windowstotabs": {
+    "message": "Δείξε καρτέλες αντί για παράθυρα"
+  },
+  "showruntime": {
+    "message": "Δείξε τον χρόνο λειτουργείας"
+  },
+  "speedformat": {
+    "message": "Τρόπος μέτρησης ταχύτητας"
+  },
+  "hour": {
+    "message": "ώρα"
+  },
+  "min": {
+    "message": "λεπτά"
+  },
+  "deltaoptions": {
+    "message": "Ενεργοποίησε λετουργείες delta. Καποιές μπορεί να έχουν προβλήματα"
+  },
+  "palladiumlogic": {
+    "message": "Λογική Palladium (Λειτουργεί μόνο αν οι λειτουργείες delta και το palladium bot είνε ενεργοποιημένες)"
+  },
+  "shipconfigs": {
+    "message": "Λειτουργείες Πλοίου"
+  },
+  "attackconfig": {
+    "message": "Λειτουργεία Επίθεσης:"
+  "flyingconfig": {
+    "message": "Λειτουργεία Πτήσης:"
+  },
+  "advanced": {
+    "message": "Πρωχωρημένα (Αρχάριοι, φύγετε!)"
+  },
+  "logictick": {
+    "message": "Λογικη χρόνου (μιλλιδευτερόλεπτα)"
+  },
+  "refreshsettings": {
+    "message": "Ρυθμίσεις λειτουργείας επαναφόρτωσης σελίδας"
+  },
+  "enablerefresh": {
+    "message": "Ενεργοποίησε λειτουργεία επαναφόρτωσης σελίδας"
+  },
+  "refreshtime": {
+    "message": "Διάλειμμα επαναφόρτωσης (λεπτά)"
+  },
+  "enablenpcblocklist": {
+    "message": "Να περιέχονται τα npc στην μαύρη λίστα μέσα στις λειτουργείες επαναφόρτωσης σελίδας"
+  },
+  "refreshtoreconnect": {
+    "message": "Επαναφόρτωση σελίδας όταν γίνεται αποσύνδεση"
+  },
+  "clearsettings": {
+    "message": "Καθάρισε τον χώρο των ρυθμίσεων (Λειτουργεία επαναφόρτωσης)"
+  },
+  "reviveat": {
+    "message": "Αναζωογονήσου σε"
+  },
+  "base": {
+    "message": "Βάση"
+  },
+  "gate": {
+    "message": "Πύλη"
+  },
+  "spot": {
+    "message": "Σε σημείο"
+  },
+  "norevive": {
+    "message": "Να μην αναζωογονηθείς"
+  },
+  "revivelimit": {
+    "message": "Όριο αναζωογόνησης"
+  },
+  "workmap": {
+    "message": "Χάρτης Δουλειάς"
+  },
+  "any": {
+    "message": "Όποιον να ναι"
+  },
+  "onlyworkdelta": {
+    "message": "(Λειτουργεί μόνο αν οι λειτουργείες delta είναι ενεργοποιημένες)"
+  },
+  "boxsettings": {
+    "message": "Ρυθμίσεις κουτιών"
+  },
+  "bonusbox": {
+    "message": "Κουτί Bonus"
+  },
+  "materials": {
+    "message": "Υλικά"
+  },
+  "cargobox": {
+    "message": "Κουτί φορτίου"
+  },
+  "greenorgoldbooty": {
+    "message": "Πράσινα | Χρυσά κουτιά"
+  },
+  "redbooty": {
+    "message": "Κόκκινα κουτιά"
+  },
+  "bluebooty": {
+    "message": "Μπλέ κουτιά"
+  },
+  "masquebooty": {
+    "message": "Αποκαλυπτικά κουτιά"
+  },
+  "collectboxwhencircle": {
+    "message": "Να μαζεύεις κουτιά όταν κουνιέσαι"
+  },
+  "target": {
+    "message": "Έχθρος: "
+  },
+  "hp": {
+    "message": "Πόντοι Ζωής: "
+  },
+  "shd": {
+    "message": "Πόντοι Ασπίδας: "
+  },
+  "palladiumbot": {
+    "message": "Bot για Palladium"
+  },
+  "moverandomly": {
+    "message": "Κοινήσου τυχαία"
+  },
+  "killnpcs": {
+    "message": "Σκότωνε NPCs"
+  },
+  "fleefromenemy": {
+    "message": "Απόφυγε τον εχθρό"
+  },
+  "avoidattackednpc": {
+    "message": "Αποφυγε χτυπημένα NPCs<br>(Μην χρησιμοποιείς με PET)"
+  },
+  "circle": {
+    "message": "Κοινήσου"
+  },
+  "circleradius": {
+    "message": "Ακτίνα κίνησης <span> (500px)</span>"
+  },
+  "dontcirclewhenhp": {
+    "message": "Μην κουνιέσαι όταν οι πόντοι ζωής < 25%"
+  },
+  "repairwhenhp": {
+    "message": "Επιδιωρθώσου όταν οι πόντοι ζωής < <span> (10%)</span>"
+  },
+  "jumpandreturn": {
+    "message": "Πήδα πύλες και ξαναγύρνα"
+  },
+  "autochangeconfig": {
+    "message": "Άλλαξε αυτόματα λειτουργεία"
+  },
+  "dodgethecbs": {
+    "message": "Απόφυγε το CBS"
+  },
+  "resettarget": {
+    "message": "Κάνε επαναφορά τον εχθρό όταν οι πόντοι ζωής < 25%"
+  },
+  "savesettingsandenable": {
+    "message": "Αποθήκευσε τις ρυθμίσεις & Ενεργοποίησε την επαναφόρτωση"
+  },
+  "attackdetails": {
+    "message": "Πληροφορίες επίθεσης"
+  },
+  "general": {
+    "message": "Γενικά"
+  },
+  "gghelper": {
+    "message": "Βοηθός GG"
+  },
+  "ggbot": {
+    "message": "GG Bot (Τεστάρεται)"
+  },
+  "jumpin": {
+    "message": "Πήδα πύλη"
+  },
+  "minimap": {
+    "message": "Χάρτης"
+  },
+  "excludenpcto": {
+    "message": "Απόκλειε να επιτίθεσε ορισμένα NPC"
+  },
+  "statistic": {
+    "message": "Στατιστικά"
+  },
+  "startat": {
+    "message": "Να αρχίσεις: "
+  },
+  "credits": {
+    "message": "Credits: "
+  },
+  "uridium": {
+    "message": "Uridium: "
+  },
+  "ggenergy": {
+    "message": "Ένέργεια GG: "
+  },
+  "ammo": {
+    "message": "Πυρομαχικά: "
+  },
+  "experiencie": {
+    "message": "Εμπειρία: "
+  },
+  "honor": {
+    "message": "Τιμή: "
+  },
+  "rank": {
+    "message": "Πόντοι κατάταξης: "
+  },
+  "death": {
+    "message": "Αριθμός καταστραφών του πλοίου σου: "
+  },
+  "speed": {
+    "message": "Ταχύτητα: "
+  },
+  "runtime": {
+    "message": "Χρόνος λειτουργείας: "
+  },
+  "reset": {
+    "message": "Επαναφόρτωσε"
+  },
+  "shipsettings": {
+    "message": "Ρυθμίσεις του πλοίου σου"
+  },
+  "changedroneformation": {
+    "message": "Άλλαξε τον σχηματισμό των drones σου"
+  },
+  "attackformationslot": {
+    "message": "Θέση σχηματισμού επίθεσης"
+  },
+  "flyingformationslot": {
+    "message": "Θέση σχηματισμού πτήσης"
+  },
+  "droneformations": {
+    "message": "Σχηματισμός Drones(BETA)"
+  },
+  "shiphability": {
+    "message": "Ευελιξία πλοίου (BETA)"
+  },
+  "usehability": {
+    "message": "Χρησιμοποίησε ευελιξία"
+  },
+  "habilityslot": {
+    "message": "Θέση ευελιξίας"
+  },
+  "refreshsettings": {
+    "message": "Ρυθμίσεις επαναφόρτωσης"
+  },
+  "slotsAmmunition": {
+    "message": "Λειτουργεία πυρομαχικών"
+  },
+  "autochangeammunition": {
+    "message": "Άλλαξε αυτόματα πυρομαχικά"
+  },
+  "piratebot": {
+    "message": "5-2 Pirate bot - Gate Left"
+  },
+  "cubibot": {
+    "message": "Protegit Bot"
+  },
+  "gatestonpc": {
+    "message": "NPCs in gate"
+  },
+  "x1Slot": {
+    "message": "Slot x1"
+  },
+  "x2Slot": {
+    "message": "Slot x2"
+  },
+  "x3Slot": {
+    "message": "Slot x3"
+  },
+  "x4Slot": {
+    "message": "Slot x4"
+  },
+  "SABSlot": {
+    "message": "Slot SAB"
+  },
+  "npcname": {
+    "message": "NPC Name"
+  },
+  "npcrange": {
+    "message": "Range"
+  },
+  "npcammo": {
+    "message": "Ammo"
+  },
+  "npcpriority": {
+    "message": "Priority"
+  },
+  "npclist": {
+    "message": "NPC List"
+  },
+  "generalsettings": {
+    "message": "General settings"
+  },
+  "stopafterxminutes": {
+    "message": "Stop after x minutes (0 = No Stop)"
+  },
+  "waitafterRepair" : {
+    "message": "Stop x minutes after revive (0 = No Stop)"
+  },
+  "loadSettings": {
+    "message": "Load Settings"
+  },
+  "sentinelmode": {
+	"message": "Sentinel Mode"
+  }
+}

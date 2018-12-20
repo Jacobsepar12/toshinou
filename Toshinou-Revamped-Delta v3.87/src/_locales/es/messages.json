@@ -1,0 +1,347 @@
+﻿{
+  "toshidescription": {
+    "message": "Una ventaja/herramienta/bot/lo que sea para un juego de navegador llamado DarkOrbit. Hace algunas cosas bastante bien y todavía está bajo un duro desarrollo.",
+    "description": "Descripción de Toshinou"
+  },
+  "desextension": {
+    "message": "Bot para DarkOrbit, creado por Freshek.",
+    "description": "Descripción de la Extención Toshinou"
+  },
+  "appearance": {
+    "message": "Apariencia"
+  },
+  "translateby": {
+    "message": "Traducido por MauThunder",
+    "description": "Descripción de la Extención Toshinou"
+  },
+  "saveall": {
+    "message": "Guardar Todo"
+  },
+  "headercolor": {
+    "message": "Color de Encabezado"
+  },
+  "opacity": {
+    "message": "Opacidad"
+  },
+  "windowbackgroundcolor": {
+    "message": "Color de Fondo"
+  },
+  "statisticwindow": {
+    "message": "Ventana de Estadísticas"
+  },
+  "windowstotabs": {
+    "message": "Mostrar Pestañas en lugar de Ventanas"
+  },
+  "showruntime": {
+    "message": "Mostrar Tiempo Activo"
+  },
+  "speedformat": {
+    "message": "Formato de Velocidad"
+  },
+  "hour": {
+    "message": "Hora"
+  },
+  "min": {
+    "message": "Minuto"
+  },
+  "deltaoptions": {
+    "message": "Activar funciones Delta. Algunas pueden contener Bugs"
+  },
+  "palladiumlogic": {
+    "message": "Función de Paladio"
+  },
+  "shipconfigs": {
+    "message": "Configuraciones de Nave"
+  },
+  "attackconfig": {
+    "message": "Configuración de Ataque:"
+  },
+  "flyingconfig": {
+    "message": "Configuración de Velocidad:"
+  },
+  "escapeConfig": {
+    "message": "Configuración de Huida:"
+  },
+  "advanced": {
+    "message": "Avanzado(principiantes alejense!)"
+  },
+  "logictick": {
+    "message": "Logic tick (ms)"
+  },
+  "refreshsettings": {
+    "message": "Configuración de Refresh"
+  },
+  "enablerefresh": {
+    "message": "Activar función Refresh"
+  },
+  "refreshtime": {
+    "message": "Recargar la pagina cada (min)"
+  },
+  "enablenpcblocklist": {
+    "message": "Incluir la lista de NPCs en la función Refresh"
+  },
+  "refreshtoreconnect": {
+    "message": "Refrescar la pagina cuando se desconecte"
+  },
+  "clearsettings": {
+    "message": "Limpiar configuraciones (Función Refresh)"
+  },
+  "reviveat": {
+    "message": "Revivir en"
+  },
+  "base": {
+    "message": "Base"
+  },
+  "gate": {
+    "message": "Portal"
+  },
+  "spot": {
+    "message": "En el sitio"
+  },
+  "norevive": {
+    "message": "No reparar"
+  },
+  "revivelimit": {
+    "message": "Limite de revivir"
+  },
+  "workmap": {
+    "message": "Mapa"
+  },
+  "any": {
+    "message": "Cualquiera"
+  },
+  "onlyworkdelta": {
+    "message": "(Solo funciona si Delta está activo)"
+  },
+  "boxsettings": {
+    "message": "Configuración de Recolección"
+  },
+  "bonusbox": {
+    "message": "Cajas de Bono"
+  },
+  "materials": {
+    "message": "Materiales"
+  },
+  "cargobox": {
+    "message": "Cajas de Carga"
+  },
+  "greenorgoldbooty": {
+    "message": "Cofres Verdes | Dorados"
+  },
+  "redbooty": {
+    "message": "Cofres Rojos"
+  },
+  "bluebooty": {
+    "message": "Cofres Azules"
+  },
+  "masquebooty": {
+    "message": "Cofres Apocalipsis"
+  },
+  "collectboxwhencircle": {
+    "message": "Colectar mientras gira"
+  },
+  "target": {
+    "message": "Objetivo: "
+  },
+  "hp": {
+    "message": "Vida: "
+  },
+  "shd": {
+    "message": "Escudo: "
+  },
+  "palladiumbot": {
+    "message": "Bot de Paladio"
+  },
+  "moverandomly": {
+    "message": "Moverse Aleatoriamente"
+  },
+  "killnpcs": {
+    "message": "Matar NPCs"
+  },
+  "fleefromenemy": {
+    "message": "Huir de los Enemigos"
+  },
+  "avoidattackednpc": {
+    "message": "Evitar NPCs atacados por otros<br>(No usar con el PET)"
+  },
+  "circle": {
+    "message": "Girar en Círculos"
+  },
+  "circleradius": {
+    "message": "Radio del Círculo <span> (500px)</span>"
+  },
+  "dontcirclewhenhp": {
+    "message": "No girar cuando el HP sea menor de 25%"
+  },
+  "repairwhenhp": {
+    "message": "Repara cuando el HP sea menor de <span> (10%)</span>"
+  },
+  "jumpandreturn": {
+    "message": "Saltar portal y Regresar"
+  },
+  "autochangeconfig": {
+    "message": "Cambiar Config Automaticamente"
+  },
+  "dodgethecbs": {
+    "message": "Esquivar Estación de Batalla"
+  },
+  "resettarget": {
+    "message": "Restablecer el objetivo cuando la vida sea menor de 25%"
+  },
+  "savesettingsandenable": {
+    "message": "Guardar cambios y Activar Refresh"
+  },
+  "attackdetails": {
+    "message": "Detalles del Objetivo"
+  },
+  "general": {
+    "message": "General"
+  },
+  "gghelper": {
+    "message": "Puertas Galácticas"
+  },
+  "ggbot": {
+    "message": "GG Bot (En Fase de Pruebas)"
+  },
+  "jumpin": {
+    "message": "Saltar a"
+  },
+  "minimap": {
+    "message": "Minimapa"
+  },
+  "excludenpcto": {
+    "message": "Excluir NPCs para Atacar"
+  },
+  "statistic": {
+    "message": "Estadísticas"
+  },
+  "startat": {
+    "message": "Comienzo: "
+  },
+  "credits": {
+    "message": "Créditos: "
+  },
+  "uridium": {
+    "message": "Uridium: "
+  },
+  "ggenergy": {
+    "message": "Energías Extra: "
+  },
+  "ammo": {
+    "message": "Munición: "
+  },
+  "experiencie": {
+    "message": "Experiencia: "
+  },
+  "honor": {
+    "message": "Honor: "
+  },
+  "rank": {
+    "message": "Puntos de Rango: "
+  },
+  "death": {
+    "message": "Número de Muertes: "
+  },
+  "speed": {
+    "message": "Velocidad: "
+  },
+  "runtime": {
+    "message": "Tiempo activo: "
+  },
+  "reset": {
+    "message": "Reiniciar Estadísticas"
+  },
+  "shipsettings": {
+    "message": "Configuración de la Nave"
+  },
+  "changedroneformation": {
+    "message": "Cambiar la formación de los drones"
+  },
+  "attackformationslot": {
+    "message": "Slot de la formación de ataque"
+  },
+  "flyingformationslot": {
+    "message": "Slot de la formación de velocidad"
+  },
+  "escapeFormation": {
+    "message": "Slot de la formación de Huida"
+  },
+  "droneformations": {
+    "message": "Formaciones de drones (BETA)"
+  },
+  "shiphability": {
+    "message": "Habilidad de nave (BETA)"
+  },
+  "usehability": {
+    "message": "Usar habilidad"
+  },
+  "habilityslot": {
+    "message": "Slot de la habilidad"
+  },
+  "refreshsettings": {
+    "message": "Configuración de refresh"
+  },
+  "slotsAmmunition": {
+    "message": "Configuración de la munición"
+  },
+  "autochangeammunition": {
+    "message": "Auto cambiar municion"
+  },
+  "piratebot": {
+    "message": "5-2 pirata (puerta izquierda)"
+  },
+  "cubibot": {
+    "message": "Protegit Bot"
+  },
+  "gatestonpc": {
+    "message": "NPCs en portal"
+  },
+  "x1Slot": {
+    "message": "Slot x1"
+  },
+  "x2Slot": {
+    "message": "Slot x2"
+  },
+  "x3Slot": {
+    "message": "Slot x3"
+  },
+  "x4Slot": {
+    "message": "Slot x4"
+  },
+  "SABSlot": {
+    "message": "Slot SAB"
+  },
+  "npcname": {
+    "message": "Nombre NPC"
+  },
+  "npcrange": {
+    "message": "Rango"
+  },
+  "npcammo": {
+    "message": "Munición"
+  },
+  "npcpriority": {
+    "message": "Prioridad"
+  },
+  "piratebotsag": {
+    "message": "5-2 Bot Pirata Detecha"
+  },
+  "npclist": {
+    "message": "Lista NPC"
+  },
+  "generalsettings": {
+    "message": "Configuración General"
+  },
+  "stopafterxminutes": {
+    "message": "Parar despues de x minutos (0 = No parar)"
+  },
+  "waitafterRepair" : {
+    "message": "Esperar x minutos despues de que la nave reviva (0 = No parar)"
+  },
+  "loadSettings": {
+    "message": "Cargar configuración"
+  },
+  "sentinelmode": {
+	"message": "Sentinel Mode"
+  }
+}
