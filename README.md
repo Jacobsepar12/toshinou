@@ -1,9 +1,8 @@
 
 STATUS:**ONLINE** 
 
-Discord: *-*
 
-Toshinou 3.87
+Toshinou 5.v90
 ==========
 A cheat/tool/bot/whatever for a browser flash game named DarkOrbit.
 It does some pretty neat stuff and is still under heavy development.
